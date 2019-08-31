@@ -63,11 +63,11 @@ Necessary Output:
 No solution found.
 Input:
 
-6 6 4
-42 3 5
-56 6 1
-79 5 1
-89 5 2
+6 6 4\
+42 3 5\
+56 6 1\
+79 5 1\
+89 5 2\
 Possible Output:
 
 42 0 0 3 5\
