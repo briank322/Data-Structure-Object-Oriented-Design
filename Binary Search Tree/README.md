@@ -31,10 +31,10 @@ Don't forget you can rotate a tile by swapping its height and length values (i.e
 
 If all tiles are placed, then you should print the contents of your solution using the following format:
 
-ID1 x1 y1 l1 h1
-ID2 x2 y2 l2 h2
-...
-IDX xX yX lX hX
+ID1 x1 y1 l1 h1\
+ID2 x2 y2 l2 h2\
+...\
+IDX xX yX lX hX\
 (xi, yi) are the bottom left coordinates of tile i, li is the length of tile i, and hi is the height of tile i.
 
 If you exhaustively search all possibilities and find no solution, you should output No solution found..
@@ -44,20 +44,20 @@ In either case, your program should terminate when it finds a solution or is una
 Examples:
 Input:
 
-10 10 2
-576 10 5
-297 4 10
+10 10 2\
+576 10 5\
+297 4 10\
 Possible Output:
 
-297 0 0 4 10
-576 4 0 5 10
+297 0 0 4 10\
+576 4 0 5 10\
 Rectangle 576 is rotated so as to fit in the above example.
 
 Input:
 
-5 5 2
-17 3 3
-29 3 3
+5 5 2\
+17 3 3\
+29 3 3\
 Necessary Output:
 
 No solution found.
@@ -70,7 +70,7 @@ Input:
 89 5 2
 Possible Output:
 
-42 0 0 3 5
-56 0 5 6 1
-79 3 0 1 5
-89 4 0 2 5
+42 0 0 3 5\
+56 0 5 6 1\
+79 3 0 1 5\
+89 4 0 2 5\
