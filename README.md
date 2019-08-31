@@ -26,3 +26,7 @@ Examples (the first four are valid, the other four are not):
 <msort.h>
 --------------------------------------------------------------------------
 Implemented a mergesort that runs on O(nlogn).
+
+<heap.h>
+--------------------------------------------------------------------------
+Build a m-ary Heap class rather than specifying a specific type of heap (Min- or Max-Heap) it passes in a Comparator object so that if the comparator object functor implements a less-than check then we will have a min-heap. If the Comparator object functor implements a greater-than check this will have a max-heap.
