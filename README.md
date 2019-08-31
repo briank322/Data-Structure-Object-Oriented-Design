@@ -22,3 +22,7 @@ Examples (the first four are valid, the other four are not):
 - (leonardo-foot+splinter)   // mixing operators
 - (+pikachu+charizard)    // extra +
 - (clARk + bruCE)    // the strings use capital letters
+
+<msort.h>
+--------------------------------------------------------------------------
+Implemented a mergesort that runs on O(nlogn).
