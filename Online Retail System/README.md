@@ -12,7 +12,7 @@ AND r/n term term ...\
 OR r/n term term ...\
 ADD search_hit_number\
 VIEWCART\
-BUYCART\ 
-ADDREV seach_hit_number rating date review_text\
-VIEWREV seach_hit_number\
-QUIT new_db_filename\
+BUYCART \ 
+ADDREV seach_hit_number rating date review_text \
+VIEWREV seach_hit_number \
+QUIT new_db_filename
